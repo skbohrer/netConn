@@ -6,7 +6,6 @@ function onPrompt(results) {
 }
 
 function doBtnClick () {
-function checkConnection() {
     var networkState = navigator.connection.type;
 
     var states = {};
@@ -21,7 +20,7 @@ function checkConnection() {
 
     alert('Connection type: ' + states[networkState]);
 }
-}
+
 // Call on Android device ready event and also directly for PC testing. Thus
 // init may be called twice
 function init() {
@@ -30,4 +29,3 @@ function init() {
 
 // Wait for device API libraries to load
 document.addEventListener("deviceready", init, false);
-

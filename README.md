@@ -1,4 +1,4 @@
-promptTest
+netConn Test
 ===========
 
 Short test of network-information plugin, using the sample code from 
