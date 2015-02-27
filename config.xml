@@ -18,6 +18,8 @@
 			Steve Bohrer
 		</author>
 
+		<gap:plugin name="org.apache.cordova.network-information" source="pgb" version="0.2.12" />
+
 				<!-- preferences -->
 		<preference name="permissions" value="none"/>			<!-- core plugins add own permissions -->
 		<preference name="phonegap-version" value="3.7.0" /> 	<!-- all: current version of PhoneGap -->
